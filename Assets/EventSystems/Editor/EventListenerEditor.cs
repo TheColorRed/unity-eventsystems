@@ -46,7 +46,7 @@ public class EventListenerEditor : Editor {
       if (comp.objectReferenceValue == null) {
         EditorGUI.LabelField(
           new Rect((rect.width / 4) + rect.x + 2, rect.y, rect.width / 1.35f, EditorGUIUtility.singleLineHeight),
-          "Action"
+          "Action Event"
         );
       } else if (comp.objectReferenceValue != null) {
         // Draw the MonoBehaviour field
